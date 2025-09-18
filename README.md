@@ -1,7 +1,8 @@
 ETCD Backup & Restore — Troubleshoot
 <p align="center"> <img alt="Mission Badge" src="https://img.shields.io/badge/Mission-Control%20Plane-blue" /> <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-Cluster-lightgrey" /> <img alt="etcd v3" src="https://img.shields.io/badge/etcd-v3-important" /> <img alt="Disaster Recovery" src="https://img.shields.io/badge/Disaster%20Recovery-Ready-success" /> </p>
 
-My first mission: The controlplane node in our cluster is planned for a regular maintenance reboot tonight. While we do not anticipate anything to go wrong, we are required to take the necessary backups. Take a snapshot of the ETCD database using the built-in snapshot functionality. Store the backup file at location /opt/snapshot-pre-boot.db
+<h2>My first mission: The controlplane node in our cluster is planned for a regular maintenance reboot tonight. While we do not anticipate anything to go wrong, we are required to take the necessary backups. Take a snapshot of the ETCD database using the built-in snapshot functionality. Store the backup file at location /opt/snapshot-pre-boot.db</h2>
+
 <img width="1264" height="677" alt="image" src="https://github.com/user-attachments/assets/09988248-60f3-4f40-a732-d85e575ca9b8" />
 <img width="855" height="344" alt="image" src="https://github.com/user-attachments/assets/82c4df69-91df-41a5-9829-0dd1f28893cb" />
 Using grep to find paths and Taking Snapshot
