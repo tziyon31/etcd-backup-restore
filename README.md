@@ -1,4 +1,4 @@
-ETCD Backup & Restore — Troubleshoot
+<h1 align="center">ETCD Backup &amp; Restore - Troubleshoot</h1>
 <p align="center"> <img alt="Mission Badge" src="https://img.shields.io/badge/Mission-Control%20Plane-blue" /> <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-Cluster-lightgrey" /> <img alt="etcd v3" src="https://img.shields.io/badge/etcd-v3-important" /> <img alt="Disaster Recovery" src="https://img.shields.io/badge/Disaster%20Recovery-Ready-success" /> </p>
 
 <h2>My first mission: The controlplane node in our cluster is planned for a regular maintenance reboot tonight. While we do not anticipate anything to go wrong, we are required to take the necessary backups. Take a snapshot of the ETCD database using the built-in snapshot functionality. Store the backup file at location /opt/snapshot-pre-boot.db</h2>
